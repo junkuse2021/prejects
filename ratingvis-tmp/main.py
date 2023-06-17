@@ -2,7 +2,7 @@ import requests
 import json
 
 default = 71712
-series_id = input("Enter the series id: ") or default
+series_id = input("Enter the series id [default: good doctor]: ") or default
 series_id = int(series_id)
 url = f"https://api.themoviedb.org/3/tv/{series_id}?language=en-US"
 
