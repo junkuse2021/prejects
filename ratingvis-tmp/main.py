@@ -54,3 +54,5 @@ for i in range(no_of_seasons):
 
 with open('show_rating.json', 'w') as f:
     json.dump(show, f, indent=1)
+
+print("check show_rating.json")
